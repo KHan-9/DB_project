@@ -55,13 +55,6 @@ class Drivers(Base):
 
         return
 
-#def set_driver_id():
-#    num = 0
-#    stm = session.query(Drivers).all()
-#    for row in stm:
-#        num=row.ID
-#
-#    return num+1
 
 #*****************************************************Operations**************************************** 
     
@@ -173,15 +166,7 @@ except Exception:
     print("Database connection denied")
     exit(0)
 
-#create_all()
-#regions()
 
-#new_driver("Adi", "Mozdzierz", 2, 1)
-#drivers_regions()
-#fire_driver(5)
-#fire_driver(6)
-
-#session.commit()
 while True:
     print("\nChoose operation:")
     print("1.Show drivers")
